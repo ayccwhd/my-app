@@ -53,6 +53,7 @@ const Login = () => {
             setAuth({ user, pwd, roles, accessToken });
             setUser('');
             setPwd('');
+
             setSuccess(true);
             navigate(from, { replace: true });
 
