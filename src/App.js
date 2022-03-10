@@ -2,7 +2,7 @@
  * @Author: aycc
  * @Date: 2022-03-01 18:22:14
  * @LastEditors: aycc
- * @LastEditTime: 2022-03-10 11:16:18
+ * @LastEditTime: 2022-03-10 12:40:26
  * @Description: file content
  * @FilePath: \my-app\src\App.js
  */
@@ -38,7 +38,7 @@ function App() {
         <Route path="login" element={<Login />} />
         <Route path="register" element={<Register />} />
 
-        {/* <Route path="unauthorized" element={<Unauthorized />} /> */}
+        {/* <Route path="unauthorized" element={<Unauthorized />} />  */}
 
         <Route path="editor" element={<Editor />} />
         <Route path="admin" element={<Admin />} />

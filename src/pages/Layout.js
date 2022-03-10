@@ -2,7 +2,7 @@
  * @Author: aycc
  * @Date: 2022-03-09 18:22:14
  * @LastEditors: aycc
- * @LastEditTime: 2022-03-10 11:32:18
+ * @LastEditTime: 2022-03-10 12:39:30
  * @Description: file content
  * @FilePath: \my-app\src\pages\Layout.js
  */
@@ -16,7 +16,7 @@ const Layout = () => {
             <div>
                 <li>
                     <Link to="/editor">个人  </Link>
-                    <Link to="/admin">商家  </Link>
+                    <Link to="/admin">商家   </Link>
                     <Link to="/shoppingcart">购物车  </Link>
                     <Link to="/linkpage">链接  </Link>
                 </li>

@@ -1,4 +1,12 @@
-import { useNavigate } from "react-router-dom"
+/*
+ * @Author: aycc
+ * @Date: 2022-03-09 18:22:14
+ * @LastEditors: aycc
+ * @LastEditTime: 2022-03-10 12:40:22
+ * @Description: file content
+ * @FilePath: \my-app\src\pages\Unauthorized.js
+ */
+import { useNavigate } from "react-router-dom "
 
 const Unauthorized = () => {
     const navigate = useNavigate();

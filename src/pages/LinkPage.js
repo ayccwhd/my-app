@@ -2,11 +2,11 @@
  * @Author: aycc
  * @Date: 2022-03-02 18:22:14
  * @LastEditors: aycc
- * @LastEditTime: 2022-03-10 11:37:11
+ * @LastEditTime: 2022-03-10 12:39:32
  * @Description: file content
  * @FilePath: \my-app\src\pages\LinkPage.js
  */
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom "
 
 const LinkPage = () => {
     return (

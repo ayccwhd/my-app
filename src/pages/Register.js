@@ -1,7 +1,7 @@
 import { useRef, useState, useEffect } from "react";
 //图标库
 import { faCheck, faTimes, faInfoCircle } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome ";
 import axios from '../api/axios';
 import { Link } from "react-router-dom";
 
@@ -58,7 +58,7 @@ const Register = () => {
         //安全性
         const v1 = USER_REGEX.test(user);
         const v2 = PWD_REGEX.test(pwd);
-        
+
         if (!v1 || !v2) {
             setErrMsg("Invalid Entry");
             return;
